@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "W25N01GVZE"
-			(at 0 0 0)
+			(at -1.016 13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "Cascade_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm_WidePin"
-			(at 0 0 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.winbond.com/resource-files/W25N01GV%20Rev%20R%20070323.pdf"
-			(at 0 0 0)
+			(at 0 -9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +40,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3V 1Gbit Serial SLC NAND Flash Memory, Dual/Quad SPI, Buffer Read & Continous Read"
+		(property "Description" "Winbond, Serial SLC NAND Flash, Dual/Quad SPI, 1G-bit, 3V, WSON-8 8x6mm"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SPI SLC NAND Flash 1Gbit"
 			(at 0 0 0)
 			(effects
 				(font

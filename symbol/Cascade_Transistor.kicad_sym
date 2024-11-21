@@ -41,7 +41,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "60V, 300mA, dual N-channel MOSFET, SOT-363"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56,6 +56,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "ki_keywords" "N-channel MOSFET"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "2N7002BKS_0_1"

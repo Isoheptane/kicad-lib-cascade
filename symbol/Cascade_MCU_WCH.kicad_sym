@@ -40,7 +40,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-bit Enhanced USB MCU"
+		(property "Description" "WCH 8-bit Enhanced USB MCU, QFN-16"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "WCH USB-MCU"
 			(at 0 0 0)
 			(effects
 				(font

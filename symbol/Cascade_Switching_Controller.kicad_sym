@@ -40,7 +40,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.7~36V input voltage, 2.7~36V output voltage synchronous 4-switch buck-boost controller"
+		(property "Description" "Northchip, synchronous 4-switch buck-boost controller, 2.7~36V input voltage, 2.7~36V output voltage, QFN-32"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "step-down step-up buck-boost"
 			(at 0 0 0)
 			(effects
 				(font

@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps565201.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -40,7 +40,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.5V-17V input voltage, 500kHz, 5A, synchronous step-down converter, SOT-23-6"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "step-down"
 			(at 0 0 0)
 			(effects
 				(font
@@ -202,7 +211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62065.pdf"
 			(at -10.16 6.35 0)
 			(effects
 				(font
@@ -211,7 +220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.9V-6V input voltage, 3MHz, 2A, synchronous step-down converter, WSON-8 2x2mm"
 			(at -10.16 6.35 0)
 			(effects
 				(font
@@ -220,7 +229,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "TPS62065"
+		(property "ki_keywords" "step-down"
 			(at 0 0 0)
 			(effects
 				(font

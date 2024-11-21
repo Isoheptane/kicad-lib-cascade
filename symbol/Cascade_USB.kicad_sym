@@ -40,8 +40,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4-Port, USB 3.1 Gen1 Super Speed Hub Controller, QFN-64"
 			(at 27.94 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "USB Hub"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,8 +1280,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB Type-C Data Switch with CC Function for USB 3.1 Gen2 (10Gbps), QFN-28"
 			(at -13.97 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch mux USB Type-C"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,8 +1872,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 3.1 Gen2 Hub Controller, SuperSpeed+, USB 2.0 MTT, QFN-76"
 			(at -33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "USB Hub SuperSpeed"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

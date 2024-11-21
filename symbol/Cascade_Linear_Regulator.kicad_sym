@@ -40,7 +40,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100mA low dropout linear regulator, 3-terminal, 30V max input voltage, 5V fixed positive output, SOT-23"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "linear regulator ldo"
 			(at 0 0 0)
 			(effects
 				(font

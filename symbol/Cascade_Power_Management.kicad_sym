@@ -40,8 +40,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WCH, USB PD and other fast charging protocol sink controller, SSOP-10"
 			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "USB-PD"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -308,6 +317,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_keywords" "power switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "MT9700_1_1"
 			(rectangle
 				(start -6.35 7.62)
@@ -441,7 +459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps25200.pdf"
 			(at -6.35 6.35 0)
 			(effects
 				(font
@@ -450,8 +468,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "60-mΩ eFuse, Adjustable Current Limit, Overvoltage Clamp, 5V"
 			(at -6.35 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power switch"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
