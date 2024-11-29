@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "L_4.6x4.1_H2"
-		(at 0 1 0)
+		(at 0 3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d5c1e659-fcae-40f3-b932-0c7c32008eca")
@@ -150,7 +150,7 @@
 		(uuid "eb0df70f-ae51-4f58-812a-ce4f55d83c9d")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "50e047f1-0370-434b-9ee1-41824f385380")

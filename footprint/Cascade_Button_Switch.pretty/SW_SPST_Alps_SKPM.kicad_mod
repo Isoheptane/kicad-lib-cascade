@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "SW_SPST_Alps_SKPM"
-		(at 0 3.9 0)
+		(at 0 4.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "bab656fa-f8ca-49ce-99b2-6b540af89136")
