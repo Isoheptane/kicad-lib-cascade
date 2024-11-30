@@ -45,7 +45,7 @@ This repo stores my own KiCAD symbols and footprints.
 #### Switching Controller
 | Name | Description |
 | :--- | :---------- |
-| SC8701 | Northchip, synchronous 4-switch buck-boost controller, 2.7~36V input voltage, 2.7~36V output voltage, QFN-32 |
+| SC8701 | Northchip, synchronous 4-switch buck-boost controller, 2.7-36V input voltage, 2.7-36V output voltage, QFN-32 |
 
 #### Switching Converter
 | Name | Description |
