@@ -1,7 +1,7 @@
-(footprint "Texas_VQFN-14_3.5x3.5mm_P0.5mm"
-	(version 20240108)
+(footprint "Texas_VQFN-14_RHL0014A_3.5x3.5mm_P0.5mm"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -8.5 0)
@@ -15,24 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "Texas_VQFN-14_3.5x3.5mm_P0.5mm"
-		(at 0 5 0)
+	(property "Value" "Texas_VQFN-14_RHL0014A_3.5x3.5mm_P0.5mm"
+		(at 0.1 3.2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "3c2519a3-24c9-4ca9-bed3-99c6cf9494ed")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1e596dbe-6f86-4eff-b124-aff08678c65e")
 		(effects
 			(font
 				(size 1 1)
@@ -67,32 +54,6 @@
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy -0.375 -2.05) (xy -0.125 -2.05) (xy -0.125 -1.425) (xy 0.125 -1.425) (xy 0.125 -2.05) (xy 0.375 -2.05)
-			(xy 0.375 -1.225) (xy -0.375 -1.225)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "a32e1dba-e564-4123-92a9-4f55ce78d3ce")
-	)
-	(fp_poly
-		(pts
-			(xy 0.375 2.05) (xy 0.125 2.05) (xy 0.125 1.425) (xy -0.125 1.425) (xy -0.125 2.05) (xy -0.375 2.05)
-			(xy -0.375 1.225) (xy 0.375 1.225)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "cdb19fad-bb5f-4ffa-91a1-e980cf16bf7c")
-	)
 	(fp_line
 		(start -1.86 1.375)
 		(end -1.86 1.86)
@@ -171,9 +132,35 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "c4cc1cfa-c472-46a3-85d0-3b9983a68bcc")
+	)
+	(fp_poly
+		(pts
+			(xy -0.375 -2.05) (xy -0.125 -2.05) (xy -0.125 -1.425) (xy 0.125 -1.425) (xy 0.125 -2.05) (xy 0.375 -2.05)
+			(xy 0.375 -1.225) (xy -0.375 -1.225)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "a32e1dba-e564-4123-92a9-4f55ce78d3ce")
+	)
+	(fp_poly
+		(pts
+			(xy 0.375 2.05) (xy 0.125 2.05) (xy 0.125 1.425) (xy -0.125 1.425) (xy -0.125 2.05) (xy -0.375 2.05)
+			(xy -0.375 1.225) (xy 0.375 1.225)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "cdb19fad-bb5f-4ffa-91a1-e980cf16bf7c")
 	)
 	(fp_rect
 		(start -2.4 -2.4)
@@ -182,7 +169,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "fb8947a7-3020-40bf-bc14-b6b7edabdee5")
 	)
@@ -283,7 +270,7 @@
 	(pad "1" smd roundrect
 		(at -0.75 -1.7)
 		(size 0.25 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "e1d943cc-f3e7-476a-a49a-726e9094fa4b")
@@ -291,7 +278,7 @@
 	(pad "2" smd roundrect
 		(at -1.7 -1)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "e3aab78a-0a6e-49e0-8aba-712e36afec37")
@@ -299,7 +286,7 @@
 	(pad "3" smd roundrect
 		(at -1.7 -0.5)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "f4163f56-40e3-4a7b-a3e4-afd00620a9e5")
@@ -307,7 +294,7 @@
 	(pad "4" smd roundrect
 		(at -1.7 0)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "453ba22b-cea9-40e6-9bb1-31fd2bd999c1")
@@ -315,7 +302,7 @@
 	(pad "5" smd roundrect
 		(at -1.7 0.5)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "d433ebc1-10a8-4992-b0af-4debafd0ee6d")
@@ -323,7 +310,7 @@
 	(pad "6" smd roundrect
 		(at -1.7 1)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "9b46afe3-9fcd-427f-a9d6-38ac8d653e52")
@@ -331,7 +318,7 @@
 	(pad "7" smd roundrect
 		(at -0.75 1.7)
 		(size 0.25 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "0c5c3124-8712-4d42-aaed-00a5f85eaf87")
@@ -339,7 +326,7 @@
 	(pad "8" smd roundrect
 		(at 0.75 1.7)
 		(size 0.25 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "137cbfaa-1476-4468-b571-9c8bb177b602")
@@ -347,7 +334,7 @@
 	(pad "9" smd roundrect
 		(at 1.7 1)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "71648bef-5c7d-436e-879d-fd729e304312")
@@ -355,7 +342,7 @@
 	(pad "10" smd roundrect
 		(at 1.7 0.5)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "1a0c07a3-f834-4b3c-b87b-48f4e4e9be08")
@@ -363,7 +350,7 @@
 	(pad "11" smd roundrect
 		(at 1.7 0)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "f59b3281-040b-4bdf-a068-b2d360a2fe5b")
@@ -371,7 +358,7 @@
 	(pad "12" smd roundrect
 		(at 1.7 -0.5)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "5bdfc183-4bc2-4695-bb8c-4fc1958352d8")
@@ -379,7 +366,7 @@
 	(pad "13" smd roundrect
 		(at 1.7 -1)
 		(size 0.7 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "88f42918-bf43-4cd2-beb4-3a163bebf923")
@@ -387,7 +374,7 @@
 	(pad "14" smd roundrect
 		(at 0.75 -1.7)
 		(size 0.25 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "9afabd40-c98c-4b79-aaf9-b189a99a5ea9")
@@ -415,4 +402,5 @@
 		)
 		(uuid "c50f0882-3bad-49ce-81a9-af7454217764")
 	)
+	(embedded_fonts no)
 )
