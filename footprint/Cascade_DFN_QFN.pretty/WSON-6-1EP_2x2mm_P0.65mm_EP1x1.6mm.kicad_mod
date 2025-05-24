@@ -4,23 +4,21 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "16402630-15ff-40fc-a749-9f21b49b5f75")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
-		(at 0 1 0)
+		(at 0 2.25 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "3a03b184-7b82-4a19-ad30-ffcf66b67076")
 		(effects
 			(font

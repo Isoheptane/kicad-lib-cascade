@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Texas_VQFN-15_RNM0015A_3.0x2.5mm"
-		(at 0 2.4 0)
+		(at 0 3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "1489c6fb-df6e-41fb-b062-c6b01f64a99c")
@@ -126,7 +126,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.25 -1.6) (xy -1.58 -1.36) (xy -1.58 -1.84) (xy -1.25 -1.6)
+			(xy -1.59 -1.85) (xy -1.11 -1.85) (xy -1.35 -1.55)
 		)
 		(stroke
 			(width 0.12)
@@ -136,16 +136,205 @@
 		(layer "F.SilkS")
 		(uuid "18843584-3d74-4666-8a59-df4f1234fc0a")
 	)
-	(fp_rect
-		(start -1.75 -2)
-		(end 1.75 2)
+	(fp_line
+		(start -1.75 -1.15)
+		(end -1.75 1.15)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "F.CrtYd")
-		(uuid "345e2157-8a5d-4e76-854f-9d502b99e7b6")
+		(uuid "42e5b3ec-98c3-4c70-8bf2-9373aa0b5c98")
+	)
+	(fp_line
+		(start -1.5 -1.75)
+		(end -1.5 -1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2487fdfd-75a5-4fc1-baba-fb616b7cff53")
+	)
+	(fp_line
+		(start -1.5 -1.15)
+		(end -1.75 -1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "282f46b6-5162-4a0b-9161-28a9c33baac1")
+	)
+	(fp_line
+		(start -1.5 1.15)
+		(end -1.75 1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "181639f6-2aa5-4aa4-bd15-3a9921adc90f")
+	)
+	(fp_line
+		(start -1.5 1.75)
+		(end -1.5 1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d023bd7-9387-4a84-8861-d96c40760415")
+	)
+	(fp_line
+		(start -1.1 -2)
+		(end -1.1 -1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6cf40d8a-6830-42a3-a829-101f5cbe66fa")
+	)
+	(fp_line
+		(start -1.1 -1.75)
+		(end -1.5 -1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "32ab7c39-493e-41a4-8d4b-9fb4ceac23dd")
+	)
+	(fp_line
+		(start -1.1 1.75)
+		(end -1.5 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f43da199-f3ab-489c-ba80-9737451e386e")
+	)
+	(fp_line
+		(start -1.1 2)
+		(end -1.1 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "094a90c4-420f-4295-a395-df3fef8807e1")
+	)
+	(fp_line
+		(start 1.15 -2)
+		(end -1.1 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "450c4420-7e3f-479f-8608-136309eae879")
+	)
+	(fp_line
+		(start 1.15 -1.75)
+		(end 1.15 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b64ef3cd-b603-43db-a2ea-6d2da3462e37")
+	)
+	(fp_line
+		(start 1.15 1.75)
+		(end 1.15 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "970ef73a-fe50-47b6-a1b5-b2b0749937bc")
+	)
+	(fp_line
+		(start 1.15 2)
+		(end -1.1 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e19cb04-35e3-446e-909a-c9eac15a09c5")
+	)
+	(fp_line
+		(start 1.5 -1.75)
+		(end 1.15 -1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "35d5c0bd-7987-4483-aa5e-0cd358756d8f")
+	)
+	(fp_line
+		(start 1.5 -0.9)
+		(end 1.5 -1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "391f88b3-f1a3-4e21-8e27-e2d536969d7e")
+	)
+	(fp_line
+		(start 1.5 1.75)
+		(end 1.15 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d77d24f-aebd-4836-bea6-6b3d30ba607e")
+	)
+	(fp_line
+		(start 1.5 1.75)
+		(end 1.5 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "17a6b3e4-b0fe-405e-af5b-778f333b558d")
+	)
+	(fp_line
+		(start 1.75 -0.9)
+		(end 1.5 -0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fce632d9-7257-47e7-bf19-1c5941e86e8f")
+	)
+	(fp_line
+		(start 1.75 0.9)
+		(end 1.5 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe9152cb-1956-4af4-ba1b-e94b523220db")
+	)
+	(fp_line
+		(start 1.75 0.9)
+		(end 1.75 -0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe1b72cf-59ae-4515-af03-58dfa2c4c035")
 	)
 	(fp_line
 		(start -1.25 -0.75)
