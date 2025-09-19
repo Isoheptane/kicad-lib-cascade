@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -11.684 32.004 0)
+			(at -11.43 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "BQ4050RSM"
-			(at 9.652 -32.512 0)
+			(at 11.43 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -672,7 +672,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.62 10.414 0)
+			(at -6.35 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -680,7 +680,7 @@
 			)
 		)
 		(property "Value" "TP4056"
-			(at -7.62 6.35 0)
+			(at 3.81 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,7 +688,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm"
-			(at -7.62 2.54 0)
+			(at -1.524 -31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -706,7 +706,7 @@
 			)
 		)
 		(property "Description" "1A, Standalone Linear Li-Ion Battery Charger"
-			(at -7.62 6.35 0)
+			(at -1.524 -27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -10,23 +10,25 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
-			(at 5.334 1.016 0)
+			(at 5.08 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "2N7002BKS"
-			(at 8.636 -3.81 0)
+			(at 5.08 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 0 0 0)
+			(at -2.286 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,7 +37,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002BKS.pdf"
-			(at 0 0 0)
+			(at 0.508 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +46,7 @@
 			)
 		)
 		(property "Description" "60V, 300mA, dual N-channel MOSFET, SOT-363"
-			(at 0 0 0)
+			(at 0.508 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -358,7 +360,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 5.08 1.905 0)
+			(at 5.08 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -367,7 +369,7 @@
 			)
 		)
 		(property "Value" "NCE30P28Q"
-			(at 5.08 0 0)
+			(at 5.08 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -385,7 +387,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ncepower.com/upload/cn/propdf/NCE30P28Q.pdf"
-			(at 0 0 0)
+			(at 4.572 -13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -394,7 +396,7 @@
 			)
 		)
 		(property "Description" "-28A, -30V, P-channel MOSFET, PDFN-8 3x3mm"
-			(at 0 0 0)
+			(at 4.064 -15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -682,7 +684,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Q"
-			(at 5.08 1.905 0)
+			(at 5.08 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -691,7 +693,7 @@
 			)
 		)
 		(property "Value" "NCEP4090GU"
-			(at 5.08 0 0)
+			(at 5.08 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -700,7 +702,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
-			(at 5.08 -1.905 0)
+			(at 4.826 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -710,7 +712,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ncepower.com/upload/cn/propdf/NCEP4090GU.pdf"
-			(at 0 0 0)
+			(at 2.032 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -719,7 +721,7 @@
 			)
 		)
 		(property "Description" "90A, 40V, Super Trench N-Channel Power MOSFET, PDFN-8 6x5mm"
-			(at 0 0 0)
+			(at 0.254 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)

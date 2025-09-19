@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 6.985 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,7 +60,7 @@
 		)
 		(symbol "78L05S_SOT23_0_1"
 			(rectangle
-				(start -5.08 3.175)
+				(start -5.08 3.81)
 				(end 5.08 -3.81)
 				(stroke
 					(width 0.254)
@@ -129,12 +129,139 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "HT75xx_SOT23"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HT75xx_SOT23"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 20.32 -2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "linear regulator ldo"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "HT75xx_SOT23_0_1"
+			(rectangle
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "HT75xx_SOT23_1_1"
+			(pin power_in line
+				(at -7.62 1.27 0)
+				(length 2.54)
+				(name "VI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -6.35 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 1.27 180)
+				(length 2.54)
+				(name "VO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "SGM2203-3.3YK3LG"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 6.985 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -187,7 +314,7 @@
 		)
 		(symbol "SGM2203-3.3YK3LG_0_1"
 			(rectangle
-				(start -5.08 3.175)
+				(start -5.08 3.81)
 				(end 5.08 -3.81)
 				(stroke
 					(width 0.254)
@@ -261,7 +388,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -5.588 7.62 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -269,7 +396,7 @@
 			)
 		)
 		(property "Value" "TPS7A8101"
-			(at 1.27 7.62 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -277,7 +404,7 @@
 			)
 		)
 		(property "Footprint" "Cascade_DFN_QFN:Texas_VSON-8_DRB0008A_3.0x3.0mm_P0.65mm"
-			(at 3.81 3.81 0)
+			(at 0 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -286,7 +413,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a8101.pdf"
-			(at 24.892 -10.922 0)
+			(at 0 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -295,7 +422,7 @@
 			)
 		)
 		(property "Description" "1-A, high-PSRR, adjustable ultra-low-dropout voltage regulator with enable"
-			(at 3.81 3.81 0)
+			(at 0 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -314,8 +441,8 @@
 		)
 		(symbol "TPS7A8101_1_1"
 			(rectangle
-				(start -6.35 6.35)
-				(end 6.35 -6.35)
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -325,7 +452,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 3.81 0)
+				(at -8.89 2.54 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -342,9 +469,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -8.89 1.27 0)
+			(pin passive line
+				(at -8.89 2.54 0)
 				(length 2.54)
+				(hide yes)
 				(name "IN"
 					(effects
 						(font
@@ -361,7 +489,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -1.27 0)
+				(at -8.89 0 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -379,7 +507,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -3.81 0)
+				(at -8.89 -2.54 0)
 				(length 2.54)
 				(name "NR"
 					(effects
@@ -397,7 +525,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -8.89 90)
+				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -414,8 +542,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -8.89 90)
+			(pin passive line
+				(at 0 -7.62 90)
 				(length 2.54)
 				(hide yes)
 				(name "EP"
@@ -434,7 +562,7 @@
 				)
 			)
 			(pin power_out line
-				(at 8.89 3.81 180)
+				(at 8.89 2.54 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -451,9 +579,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 8.89 1.27 180)
+			(pin passive line
+				(at 8.89 2.54 180)
 				(length 2.54)
+				(hide yes)
 				(name "OUT"
 					(effects
 						(font
@@ -470,7 +599,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -3.81 180)
+				(at 8.89 -2.54 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -503,7 +632,7 @@
 			)
 		)
 		(property "Value" "TPS7A8300"
-			(at 0 -6.35 0)
+			(at 7.62 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -511,7 +640,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_3.5x3.5mm_P0.5mm_EP2x2mm"
-			(at 0 -6.35 0)
+			(at -0.508 -29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -520,7 +649,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a8300.pdf"
-			(at 0 -6.35 0)
+			(at -0.508 -32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -529,7 +658,7 @@
 			)
 		)
 		(property "Description" "2-A, low-VIN, low-noise, ultra-low-dropout voltage regulator with power good"
-			(at 0 -6.35 0)
+			(at -0.254 -35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -540,7 +669,7 @@
 		(symbol "TPS7A8300_1_1"
 			(rectangle
 				(start -12.7 19.05)
-				(end 12.7 -19.05)
+				(end 12.7 -13.97)
 				(stroke
 					(width 0)
 					(type solid)
@@ -567,9 +696,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -15.24 13.97 0)
+			(pin passive line
+				(at -15.24 16.51 0)
 				(length 2.54)
+				(hide yes)
 				(name "IN"
 					(effects
 						(font
@@ -585,9 +715,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -15.24 11.43 0)
+			(pin passive line
+				(at -15.24 16.51 0)
 				(length 2.54)
+				(hide yes)
 				(name "IN"
 					(effects
 						(font
@@ -604,7 +735,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 8.89 0)
+				(at -15.24 13.97 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -622,7 +753,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 6.35 0)
+				(at -15.24 11.43 0)
 				(length 2.54)
 				(name "BIAS"
 					(effects
@@ -640,7 +771,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 1.27 0)
+				(at -15.24 6.35 0)
 				(length 2.54)
 				(name "50mV"
 					(effects
@@ -658,7 +789,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -1.27 0)
+				(at -15.24 3.81 0)
 				(length 2.54)
 				(name "100mV"
 					(effects
@@ -676,7 +807,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -3.81 0)
+				(at -15.24 1.27 0)
 				(length 2.54)
 				(name "200mV"
 					(effects
@@ -694,7 +825,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -6.35 0)
+				(at -15.24 -1.27 0)
 				(length 2.54)
 				(name "400mV"
 					(effects
@@ -712,7 +843,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -8.89 0)
+				(at -15.24 -3.81 0)
 				(length 2.54)
 				(name "800mV"
 					(effects
@@ -730,7 +861,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -11.43 0)
+				(at -15.24 -6.35 0)
 				(length 2.54)
 				(name "1.6V"
 					(effects
@@ -748,7 +879,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -16.51 0)
+				(at -15.24 -11.43 0)
 				(length 2.54)
 				(name "NR/SS"
 					(effects
@@ -765,27 +896,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -21.59 90)
+			(pin passive line
+				(at 0 -16.51 90)
 				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -21.59 90)
-				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -802,9 +916,9 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -21.59 90)
+				(at 0 -16.51 90)
 				(length 2.54)
-				(name "PAD"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -812,6 +926,25 @@
 					)
 				)
 				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -16.51 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -837,9 +970,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 15.24 13.97 180)
+			(pin passive line
+				(at 15.24 16.51 180)
 				(length 2.54)
+				(hide yes)
 				(name "OUT"
 					(effects
 						(font
@@ -855,9 +989,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 15.24 11.43 180)
+			(pin passive line
+				(at 15.24 16.51 180)
 				(length 2.54)
+				(hide yes)
 				(name "OUT"
 					(effects
 						(font
@@ -874,7 +1009,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 6.35 180)
+				(at 15.24 13.97 180)
 				(length 2.54)
 				(name "SNS"
 					(effects
@@ -892,7 +1027,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 3.81 180)
+				(at 15.24 11.43 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -910,7 +1045,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 -1.27 180)
+				(at 15.24 8.89 180)
 				(length 2.54)
 				(name "PG"
 					(effects

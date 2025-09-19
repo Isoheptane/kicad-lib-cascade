@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -4.318 6.35 0)
+			(at -3.81 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -344,7 +344,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -8.382 7.112 0)
+			(at -3.81 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -352,7 +352,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT_Shielded"
-			(at 0 6.35 0)
+			(at 6.35 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
