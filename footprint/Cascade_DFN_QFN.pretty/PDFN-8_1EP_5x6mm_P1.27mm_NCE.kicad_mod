@@ -1,4 +1,4 @@
-(footprint "PDFN-8-EP_5x6mm_P1.27mm_NCE"
+(footprint "PDFN-8_1EP_5x6mm_P1.27mm_NCE"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "PDFN-8-EP_5x6mm_P1.27mm_NCE"
+	(property "Value" "PDFN-8_1EP_5x6mm_P1.27mm_NCE"
 		(at 0 4 0)
 		(unlocked yes)
 		(layer "F.Fab")

@@ -58,6 +58,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "QFN*1EP*4x4mm*P0.4mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "BQ4050RSM_1_1"
 			(rectangle
 				(start -12.7 30.48)
@@ -715,6 +724,15 @@
 			)
 		)
 		(property "ki_keywords" "charger"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOIC*1EP*3.9x4.9mm*P1.27mm*"
 			(at 0 0 0)
 			(effects
 				(font

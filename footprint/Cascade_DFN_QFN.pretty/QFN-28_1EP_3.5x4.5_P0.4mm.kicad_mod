@@ -1,4 +1,4 @@
-(footprint "QFN-28_EP_3.5x4.5_Pitch0.4mm"
+(footprint "QFN-28_1EP_3.5x4.5_P0.4mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "QFN-28_EP_3.5x4.5_Pitch0.4mm"
+	(property "Value" "QFN-28_1EP_3.5x4.5_P0.4mm"
 		(at 0 3.9 0)
 		(layer "F.Fab")
 		(uuid "b779b2dc-06d2-4bf1-94ad-4ea62c51c5d9")

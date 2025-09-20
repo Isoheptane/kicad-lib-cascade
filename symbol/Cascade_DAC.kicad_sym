@@ -58,6 +58,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "QFN*1EP*5x5mm*P0.4mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "CS43131-CNZ_1_1"
 			(rectangle
 				(start -17.78 38.1)
@@ -868,6 +877,15 @@
 			)
 		)
 		(property "ki_keywords" "dac audio"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TSSOP*4.4x9.7mm*P0.65mm"
 			(at 0 0 0)
 			(effects
 				(font

@@ -49,6 +49,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "QFN*1EP*3x3mm*P0.5mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "CH334P_1_1"
 			(rectangle
 				(start -10.16 7.62)
@@ -418,6 +427,15 @@
 			)
 		)
 		(property "ki_keywords" "USB Hub"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "QFN*1EP*8x8mm*P0.4mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1658,6 +1676,15 @@
 			)
 		)
 		(property "ki_keywords" "USB Hub"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "QFN*1EP*10x10mm*P0.4mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3236,7 +3263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cascade_DFN_QFN:QFN-28_EP_3.5x4.5_Pitch0.4mm"
+		(property "Footprint" "Cascade_DFN_QFN:QFN-28_1EP_3.5x4.5_P0.4mm"
 			(at 0 -39.37 0)
 			(effects
 				(font
@@ -3264,6 +3291,15 @@
 			)
 		)
 		(property "ki_keywords" "switch mux USB Type-C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "QFN*1EP*3.5x4.5*P0.4mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3830,7 +3866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cascade_DFN_QFN:QFN-76_EP_9x9_Pitch0.4mm"
+		(property "Footprint" "Cascade_DFN_QFN:QFN-76_1EP_9x9mm_P0.4mm"
 			(at -24.892 -51.054 0)
 			(effects
 				(font
@@ -3858,6 +3894,15 @@
 			)
 		)
 		(property "ki_keywords" "USB Hub SuperSpeed"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "QFN*1EP*9x9mm*P0.4mm*"
 			(at 0 0 0)
 			(effects
 				(font

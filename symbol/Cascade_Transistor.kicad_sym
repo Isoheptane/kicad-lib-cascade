@@ -71,6 +71,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "SOT?363*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "2N7002BKS_0_1"
 			(polyline
 				(pts
@@ -377,7 +386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Cascade_DFN_QFN:PDFN-8-EP_3x3mm_P0.65mm_Generic"
+		(property "Footprint" "Cascade_DFN_QFN:PDFN-8_1EP_3x3mm_P0.65mm_Generic"
 			(at 33.02 -7.874 0)
 			(effects
 				(font

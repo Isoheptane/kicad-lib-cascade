@@ -1,4 +1,4 @@
-(footprint "PDFN-8-EP_3x3mm_P0.65mm_Generic"
+(footprint "PDFN-8_1EP_3x3mm_P0.65mm_Generic"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "PDFN-8-EP_3x3mm_P0.65mm_Generic"
+	(property "Value" "PDFN-8_1EP_3x3mm_P0.65mm_Generic"
 		(at 0 2.75 0)
 		(unlocked yes)
 		(layer "F.Fab")

@@ -58,6 +58,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "SOT?23*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "78L05S_SOT23_0_1"
 			(rectangle
 				(start -5.08 3.81)
@@ -185,6 +194,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "SOT?23*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "HT75xx_SOT23_0_1"
 			(rectangle
 				(start -5.08 3.81)
@@ -304,6 +322,15 @@
 			)
 		)
 		(property "ki_keywords" "linear regulator ldo"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT?89?3*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -667,6 +694,15 @@
 			)
 		)
 		(property "ki_keywords" "LDO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "QFN*1EP*3.5x3.5mm*P0.5mm*"
 			(at 0 0 0)
 			(effects
 				(font
