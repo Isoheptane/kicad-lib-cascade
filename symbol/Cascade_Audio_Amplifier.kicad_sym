@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Differential Input, DirectDrive Line Drivers/Headphone Amplifier"
+		(property "Description" "Differential Input, DirectDrive Line Drivers/Headphone Amplifier, QFN-16"
 			(at 37.592 -14.986 0)
 			(effects
 				(font
@@ -422,7 +422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers"
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, WSON-8"
 			(at 0 0 0)
 			(effects
 				(font

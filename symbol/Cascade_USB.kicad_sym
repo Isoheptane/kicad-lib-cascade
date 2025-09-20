@@ -408,7 +408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4-Port, USB 3.1 Gen1 Super Speed Hub Controller, QFN-64"
+		(property "Description" "USB 3.1 Gen1 Super Speed Hub Controller, 4-Port, QFN-64"
 			(at 0 -1.905 0)
 			(effects
 				(font
@@ -3254,7 +3254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB Type-C Data Switch with CC Function for USB 3.1 Gen2 (10Gbps), QFN-28"
+		(property "Description" "USB Type-C Data Switch with CC Function, USB 3.1 Gen2 (10Gbps), QFN-28"
 			(at 0 -41.91 0)
 			(effects
 				(font

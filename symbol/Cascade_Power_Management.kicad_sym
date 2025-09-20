@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ideal Diode, Low Voltage Drop, 2.2-5.5V, 1A, SOT-23-3"
+		(property "Description" "Ideal Diode, 2.2-5.5V Input, 0.5-A, 1-A Max, SOT-23-3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -425,7 +425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C89855.pdf"
 			(at -15.24 0 0)
 			(effects
 				(font
@@ -434,7 +434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "80mΩ,Adjustable Fast Response Current-Limited Power-Distribution Switch"
+		(property "Description" "80-mΩ Power-Distribution Switch, Adjustable Fast Response Current-Limit, 2.4-5.5V Input, SOT-23-5"
 			(at 0.254 -22.606 0)
 			(effects
 				(font
@@ -595,7 +595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "60-mΩ eFuse, Adjustable Current Limit, Overvoltage Clamp, 5V"
+		(property "Description" "60-mΩ 5-V eFuse, Adjustable Current Limit, Overvoltage Clamp, 2.5-6.5V Input, WSON-6"
 			(at -6.35 6.35 0)
 			(effects
 				(font

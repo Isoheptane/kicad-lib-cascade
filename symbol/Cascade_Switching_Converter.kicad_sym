@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "RT8010"
+	(symbol "RT8010GQW"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" "RT8010"
+		(property "Value" "RT8010GQW"
 			(at 3.81 6.35 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.5V-5.5V input voltage, 1.5MHz, 1A, synchronous step-down converter, WDFN-6 2x2mm"
+		(property "Description" "1-A, Synchronous Step-Down Converter, 2.5-5.5V Input Voltage, Adjustable Output Voltage, 1.5-MHz, PWM, WDFN-6"
 			(at -2.54 -11.684 0)
 			(effects
 				(font
@@ -58,7 +58,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "RT8010_1_1"
+		(symbol "RT8010GQW_1_1"
 			(rectangle
 				(start -7.62 5.08)
 				(end 7.62 -5.08)
@@ -238,7 +238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5V-22V Input, 14A, Synchornous Buck Converter"
+		(property "Description" "14-A Synchornous Buck Converter, 1.5-22V Input Voltage, 0.6-5.5V Output Voltage, Texas LSON-CLIP-22"
 			(at 0 -31.75 0)
 			(effects
 				(font
@@ -733,7 +733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.5V-17V input voltage, 8A, synchronous step-down converter with hiccup, VQFN-14"
+		(property "Description" "8-A Synchronous Step-Down Converter with Hiccup, 4.5-17V Input Voltage, Texas VQFN-14"
 			(at 2.54 -5.08 0)
 			(effects
 				(font
@@ -1077,7 +1077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4V-36V, 600-mA Synchronous Step-Down Converter, SOT-23-6"
+		(property "Description" "600-mA Synchronous Step-Down Converter, 4-36V Input Voltage, SOT-23-6"
 			(at -0.254 -1.27 0)
 			(effects
 				(font
@@ -1256,7 +1256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.5V-17V input voltage, 500kHz, 5A, synchronous step-down converter, SOT-23-6"
+		(property "Description" "5-A Synchornous Step-Down Converter, 4.5-17V Input Voltage, 0.76-7V Output Voltage, 500-kHz, SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1437,7 +1437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.5V-18V input voltage, 12A, synchronous step-down converter, VQFN-20"
+		(property "Description" "12-A Synchronous Step-Down Converter, 4.5-18V Input Voltage, 0.6-5.5V Output Voltage, VQFN-20"
 			(at 2.032 -35.306 0)
 			(effects
 				(font
@@ -1892,7 +1892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.2A Switch, 38V High Voltage Boost Converter in 2x2mm QFN Package"
+		(property "Description" "Boost Converter, 1.2-A Switch Current, 3-18V Input Voltage, 38-V Output Voltage, WSON-6"
 			(at 1.524 -17.272 0)
 			(effects
 				(font
@@ -2089,7 +2089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.9V-6V input voltage, 3MHz, 2A, synchronous step-down converter, WSON-8 2x2mm"
+		(property "Description" "3-A Synchronous Step-Down Converter, 2.9-6V Input Voltage, 3-MHz, WSON-8"
 			(at -10.16 6.35 0)
 			(effects
 				(font
@@ -2322,7 +2322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2V to 16V, Buck-Boost Converter, Max 3.6A Switch Current"
+		(property "Description" "Buck-Boost Converter, 3.6-A Switch Current, 2.0-16V Input Voltage, 2.5-9V Output Voltage, Texas VQFN-15"
 			(at 0 0 0)
 			(effects
 				(font

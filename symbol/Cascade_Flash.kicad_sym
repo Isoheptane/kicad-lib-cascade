@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Winbond, Serial SLC NAND Flash, Dual/Quad SPI, 1G-bit, 3V, WSON-8 8x6mm"
+		(property "Description" "Winbond, Serial SLC NAND Flash, Dual/Quad SPI, 1G-bit, 3-V, WSON-8 8x6mm"
 			(at 0 -5.08 0)
 			(effects
 				(font

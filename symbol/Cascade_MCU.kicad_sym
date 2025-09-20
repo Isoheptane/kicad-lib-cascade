@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "A microcontroller by Raspberry Pi"
+		(property "Description" "A microcontroller by Raspberry Pi, Dual-Core Cortex-M33 / Hazard3, 520-kB SRAM, no Internal Storage, QFN-60"
 			(at 1.016 -54.102 0)
 			(effects
 				(font

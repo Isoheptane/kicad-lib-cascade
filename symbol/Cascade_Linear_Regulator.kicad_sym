@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mA low dropout linear regulator, 3-terminal, 30V max input voltage, 5V fixed positive output, SOT-23"
+		(property "Description" "100-mA Low Dropout Linear Regulator, 3-Terminal, 30-V Max Input Voltage, 5V Fixed Positive Output, SOT-23"
 			(at 0 0 0)
 			(effects
 				(font
@@ -294,7 +294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "150mA, Max 36-V Input, Fixed 3.3-V Output, High Voltage Regulator"
+		(property "Description" "150- mA, High Voltage Regulator, 36-V Max Input Voltage, 3.3-V Fixed Output, High Voltage Regulator, SOT-89-3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -421,7 +421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1-A, high-PSRR, adjustable ultra-low-dropout voltage regulator with enable"
+		(property "Description" "1-A LDO Voltage Regulator, Low-Noise, Wide-Bandwidth, High-PSRR, Adjustable Output, Texas VSON-8"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -430,7 +430,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "ldo"
+		(property "ki_keywords" "LDO"
 			(at 0 0 0)
 			(effects
 				(font
@@ -657,8 +657,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2-A, low-VIN, low-noise, ultra-low-dropout voltage regulator with power good"
+		(property "Description" "2-A LDO Voltage Regulator, Low-Noise (6μV RMS), Programmable Output, QFN-20"
 			(at -0.254 -35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LDO"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

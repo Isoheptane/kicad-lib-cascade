@@ -45,7 +45,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "60V, 300mA, dual N-channel MOSFET, SOT-363"
+		(property "Description" "300mA Id, 60V Vds, dual N-channel MOSFET, SOT-363"
 			(at 0.508 -10.922 0)
 			(effects
 				(font
@@ -395,7 +395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-28A, -30V, P-channel MOSFET, PDFN-8 3x3mm"
+		(property "Description" "-28A Id, -30V Vds, P-channel MOSFET, PDFN-8 3x3mm"
 			(at 4.064 -15.494 0)
 			(effects
 				(font
@@ -720,7 +720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "90A, 40V, Super Trench N-Channel Power MOSFET, PDFN-8 6x5mm"
+		(property "Description" "90A Id, 40V Vds, Super Trench N-Channel Power MOSFET, PDFN-8 6x5mm"
 			(at 0.254 -10.668 0)
 			(effects
 				(font

@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single chip audio USB 2.0/1.1 playback and record bridge. 1 Playback port, 1 Record port. QFN-48"
+		(property "Description" "Single Chip Audio USB 2.0/1.1 Playback and Record Bridge. 1 Playback Port, 1 RecordPport, QFN-48"
 			(at 68.072 -43.434 0)
 			(effects
 				(font

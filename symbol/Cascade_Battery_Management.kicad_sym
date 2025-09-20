@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CEDV Gas Gauge and Protection Solution for 1-Series to 4-Series Cell Li-Ion Battery Packs"
+		(property "Description" "CEDV Gas Gauge and Protection Solution, 1-Series to 4-Series Cell Li-Ion Battery Packs, QFN-32"
 			(at 0 0 0)
 			(effects
 				(font
@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "li-ion ,gas gague, battery protection"
+		(property "ki_keywords" "li-ion gas-gague battery-protection"
 			(at 0 0 0)
 			(effects
 				(font
@@ -705,7 +705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A, Standalone Linear Li-Ion Battery Charger"
+		(property "Description" "1-A, Standalone Linear Li-Ion Battery Charger, SOIC-8"
 			(at -1.524 -27.432 0)
 			(effects
 				(font

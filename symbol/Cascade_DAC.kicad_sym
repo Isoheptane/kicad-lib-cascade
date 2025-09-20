@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "130-dB, 32-Bit High-Performance DAC with Integrated Headphone Driver and Impedance Detection. QFN-40"
+		(property "Description" "130-dB, 32-Bit, 384-kHz DAC, Integrated Headphone Driver and Impedance Detection, QFN-40"
 			(at 46.736 -50.8 0)
 			(effects
 				(font
@@ -858,7 +858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "120-dB, 192-kHz Multibit DAC with Volume Control. TSSOP-28"
+		(property "Description" "120-dB, 192-kHz Multibit DAC with Volume Control, TSSOP-28"
 			(at 30.48 -26.67 0)
 			(effects
 				(font
