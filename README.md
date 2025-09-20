@@ -2,7 +2,7 @@
 
 This repo stores my own KiCAD symbols and footprints.
 
-**Warning**: Please check the symbol before use. Some of the symbols are not used or checked and they are marked *itlatic*, but always check symbols even if they are not marked *itlatic*.
+**Warning**: Please check the symbol before use. Some of the symbols are larger but they are not checked or used by me, they are marked *itlatic*. But always check symbols even if they are not marked *itlatic*.
 
 ### Symbols
 
@@ -59,6 +59,8 @@ This repo stores my own KiCAD symbols and footprints.
 | Name | Description |
 | :--- | :---------- |
 | CH213K | Ideal Diode, 2.2-5.5V Input, 0.5-A, 1-A Max, SOT-23-3 |
+| CH217K | 70-mΩ Power Distribution Switch, Adjustable 400mA-2.7A Current-Limit, 2.7-5.5V Input Voltage, Over-Current/Over-Temperature Indicator, SOT-23-6 |
+| CH217X | 70-mΩ Power Distribution Switch, Adjustable 400mA-2.7A Current-Limit, 2.7-5.5V Input Voltage, Over-Current/Over-Temperature Indicator, SOT-23-6 |
 | CH224K | WCH, USB PD and other fast charging protocol sink controller, SSOP-10 |
 | MT9700 | 80-mΩ Power-Distribution Switch, Adjustable Fast Response Current-Limit, 2.4-5.5V Input, SOT-23-5 |
 | TSP25200DRV | 60-mΩ 5-V eFuse, Adjustable Current Limit, Overvoltage Clamp, 2.5-6.5V Input, WSON-6 |
